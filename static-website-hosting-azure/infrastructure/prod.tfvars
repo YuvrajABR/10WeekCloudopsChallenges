@@ -1,0 +1,6 @@
+subscriptionId     = ""
+resourceGroupName  = ""
+location           = "eastus"
+storageAccountName = ""
+cdnProfileName    = "cdn-profile-staticwebsite"
+cdnEndpointName   = "cdn-endpoint-staticwebsite"

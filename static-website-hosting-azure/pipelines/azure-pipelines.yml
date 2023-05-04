@@ -1,0 +1,16 @@
+trigger:
+- main
+
+pool:
+  vmImage: windows-latest
+
+stages:
+    - stage: CI_STAGE
+      jobs:
+      - job: CI_JOB
+        steps:
+        - task: PublishBuildArtifacts@1
+          inputs:
+            PathtoPublish: '$(System.DefaultWorkingDirectory)/'
+            ArtifactName: 'drop'
+            publishLocation: 'Container'
