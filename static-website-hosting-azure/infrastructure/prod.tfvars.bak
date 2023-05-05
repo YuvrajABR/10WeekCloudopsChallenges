@@ -1,6 +1,0 @@
-subscriptionId     = ""
-resourceGroupName  = "azuse-staticwebsite-rg-001"
-location           = "eastus"
-storageAccountName = "azusestaticwebsite001"
-cdnProfileName    = "cdn-profile-staticwebsite"
-cdnEndpointName   = "cdn-endpoint-staticwebsite"
